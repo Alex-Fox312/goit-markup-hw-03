@@ -356,10 +356,11 @@ img {
 
 .with {
   color: var(--CLOUD, #f4f4fd);
+  display: inline-block;
 }
 
 .footer {
-  display: inline-block;
+  display: inline-flex;
   padding: 100px 0;
   height: 312px;
   flex-shrink: 0;
