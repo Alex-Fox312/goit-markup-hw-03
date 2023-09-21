@@ -380,3 +380,7 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+a.web.footerweb{
+  display: inline-block;
+}
