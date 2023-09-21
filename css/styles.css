@@ -80,9 +80,6 @@ img {
   padding-right: 332px;
 }
 
-.logo {
-  margin-right: 76px;
-}
 
 .web {
   color: var(--IRIS, #4d5ae5);
@@ -94,6 +91,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.17;
+  margin-right: 76px;
 }
 
 .studio {
@@ -106,6 +104,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   line-height: 1.17;
+  margin-right: 76px;
 }
 
 .menu {
@@ -181,7 +180,7 @@ img {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 1.12px;
-  width: 496px;
+  max-width: 496px;
   text-align: center;
 }
 
@@ -228,15 +227,20 @@ img {
 }
 
 
-.inform-list li {
+.inform-li {
   display: block;
   width: calc((100% - 72px) / 4);
-  /**width: 264px;**/
 }
 
 .visually-hidden {
-  visibility: hidden;
-  margin: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .inform-p {
@@ -282,7 +286,7 @@ img {
 }
 
 .team-text {
-  padding: 32px;
+  padding: 32px 0;
 }
 
 .team-li p {
@@ -336,7 +340,7 @@ img {
 
 .footer .container {
   display: inline-flex;
-  padding: 101.5px 0 100px 0;
+  padding: 100px 0;
   margin-left: 156px;
   width: 264px;
   flex-direction: column;
@@ -363,4 +367,9 @@ img {
   line-height: 24px;
   letter-spacing: 0.32px;
   padding-top: 17.5px;
+}
+
+.footer .web {
+  display: inline-block;
+  margin-bottom: 16px;
 }
