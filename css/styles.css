@@ -70,6 +70,12 @@ img {
   background: var(--WHITE, #fff);
 }
 
+.header .container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .navigatoin {
   justify-content: space-between;
   display: flex;
