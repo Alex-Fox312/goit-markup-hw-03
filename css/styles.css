@@ -146,8 +146,7 @@ img {
 }
 .contact {
   color: var(--SLATE, #434455);
-  font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -227,15 +226,15 @@ img {
 
 .inform-list {
   display: flex;
-  margin-left: 156px;
-  margin-right: 156px;
   gap: 24px;
+  
 }
 
 
 .inform-li {
   display: block;
   width: calc((100% - 72px) / 4);
+  
 }
 
 .visually-hidden {
@@ -270,7 +269,6 @@ img {
   height: 732px;
   flex-shrink: 0;
   display: block;
-  padding: 120px 0;
 }
 
 .team-list {
